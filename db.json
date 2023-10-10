@@ -1,0 +1,44 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "model": "Camry",
+      "year": 2022,
+      "price": 25000,
+      "image": "https://media.istockphoto.com/id/905266220/photo/toyota-camry-in-motion.jpg?s=612x612&w=0&k=20&c=QdZEGEqUZz9PANdkgrJLENekgoW9H56gkD7PXzgsKDM="
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "model": "Accord",
+      "year": 2021,
+      "price": 27000,
+      "image": "https://imgd.aeplcdn.com/664x374/cw/ec/21613/Honda-Accord-Right-Front-Three-Quarter-82683.jpg?wm=0&q=80&q=80"
+    },
+    {
+      "id": 3,
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 2021,
+      "price": 32000,
+      "image": "https://imgd.aeplcdn.com/642x336/cw/ec/23766/Ford-Mustang-Exterior-126883.jpg?wm=0&q=80&q=80"
+    },
+    {
+      "id": 4,
+      "brand": "Chevrolet",
+      "model": "Camaro",
+      "year": 2022,
+      "price": 35000,
+      "image": "https://i.pinimg.com/736x/15/33/46/1533469fb9e0e7b6ded63160480abad5.jpg"
+    },
+    {
+      "id": 5,
+      "brand": "Nissan",
+      "model": "Altima",
+      "year": 2022,
+      "price": 26000,
+      "image": "https://media.ed.edmunds-media.com/nissan/altima/2020/oem/2020_nissan_altima_sedan_25-platinum_fq_oem_1_1600.jpg"
+    }
+  ]
+}
