@@ -9,12 +9,10 @@ function App() {
   const [cars, setCars] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:3000/cars")
-      .then((response) => {
+    fetch("http://localhost:3000/cars").then((response) => {
         // console.log(response)
         return response.json();
-      })
-      .then((data) => {
+      }).then((data) => {
         // console.log(data)
         setCars(data);
       });
@@ -29,7 +27,8 @@ function App() {
         cars.map((car, index) => {
           return (
             <div key={index}>
-              <NavLink>{car.brand}</NavLink>
+              <NavLink to={`/car/${car.id}`}>{car.brand}</NavLink>
+              <button>Delete</button>
             </div>
           );
         })}
